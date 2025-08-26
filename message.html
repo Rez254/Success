@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Message</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    <div class="hearts" id="hearts"></div>
+    <div class="floating-elements" id="floating-elements"></div>
+    
+    <div id="message-page" class="page active">
+        <div class="container">
+            <header>
+                <h1>My Dearest</h1>
+                <h2>KCSE Success Wishes</h2>
+            </header>
+            
+            <div class="message">
+                <p>As you embark on this important journey of your KCSE examinations Ruth, I want you to know how incredibly proud I am of you.</p>
+                <p>Your dedication, intelligence, and hard work have brought you to this moment. Remember that you are capable of amazing things.</p>
+                <p>May your pen flow with knowledge, your mind remain sharp, and your heart stay calm throughout your exams.</p>
+                <p>I believe in you completely, and I know you will shine brightly. After all this, I look forward to celebrating your success with you!</p>
+                <p class="signature">With all my love and support,<br>Someone who believes in you</p>
+            </div>
+            
+            <button class="btn" id="love-btn">
+                <i class="fas fa-heart"></i>
+                Send Love & Luck
+            </button>
+        </div>
+    </div>
+    
+    <div class="music-player" id="music-toggle">
+        <i class="fas fa-music music-icon"></i>
+    </div>
+    
+    <audio id="background-music" loop controls>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
